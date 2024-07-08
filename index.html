@@ -80,12 +80,21 @@
 				gap: 5px;
 				text-align: left;
 			}
+
+			#ad-1 {
+				background-image: url("https://email-template-image-hosting.vercel.app/images/newsletter/cookoff_coverart_h.jpg");
+			}
+			#ad-2 {
+				background-image: url("https://email-template-image-hosting.vercel.app/images/newsletter/hob_thumbnail.png");
+			}
+
 			.frame-child {
 				flex: 1;
 				border-radius: 10px;
 				background-color: #9d9d9d;
 				height: 106px;
 				overflow: hidden;
+				background-size: cover;
 			}
 			.frame-container {
 				align-self: stretch;
@@ -246,8 +255,14 @@
 							</div>
 						</div>
 						<div class="frame-container">
-							<div class="frame-child"></div>
-							<div class="frame-child"></div>
+							<div
+								class="frame-child"
+								id="ad-1"
+							></div>
+							<div
+								class="frame-child"
+								id="ad-2"
+							></div>
 						</div>
 						<div class="frame-div">
 							<div class="play-now-wrapper">
