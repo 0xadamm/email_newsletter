@@ -48,7 +48,7 @@
 				transform: translateX(-50%);
 				border-radius: 10px 10px 0px 0px;
 				background: linear-gradient(90deg, #8e27d8, #6a279b);
-				
+
 				overflow: hidden;
 				display: flex;
 				flex-direction: row;
@@ -111,7 +111,6 @@
 				align-items: center;
 				justify-content: center;
 				gap: 10px;
-				
 			}
 			.play-now-wrapper {
 				font-weight: bold;
@@ -241,24 +240,26 @@
 				width: 500px;
 				background-color: #fff;
 				overflow: hidden;
-				flex-shrink: 0;
-				display: flex;
+				/* flex-shrink: 0; */
+				/* display: flex; */
 				flex-direction: column;
 				align-items: center;
 				/* justify-content: center; */
 				padding: 20px;
 				box-sizing: border-box;
+				font-size: 18px;
 			}
 			.desktop-1 {
+				min-height: 100vh;
+				/* height: auto; */
 				width: 100%;
-				position: relative;
+				/* position: relative; */
 				background-color: #c3c3c3;
-				height: 1080px;
-				overflow: hidden;
+				/* overflow: hidden; */
 				display: flex;
-				flex-direction: row;
+				flex-direction: column;
 				align-items: center;
-				justify-content: center;
+				/* justify-content: center; */
 				padding: 0px 10px;
 				box-sizing: border-box;
 				text-align: center;
@@ -266,10 +267,39 @@
 				color: #fff;
 				font-family: Inter;
 			}
+			.username {
+				font-size: 18px;
+				color: #000;
+				font-family: Inter;
+				font-weight: bold;
+				margin-left: 10px;
+				height: 30px;
+			}
+
+			.footer-text {
+				color: #ababab;
+				font-size: 14px;
+			}
 		</style>
 
 		<div class="desktop-1">
 			<div class="desktop-1-inner">
+				<div
+					style="
+						display: flex;
+						flex-direction: row;
+						justify-self: start;
+					"
+				>
+					<a href="https://tronixnetwork.com/"
+						><img
+							style="width: 60px"
+							src="https://email-template-image-hosting.vercel.app/images/newsletter/CLOGO.png"
+							alt=""
+						/>
+					</a>
+					<p class="username">{username}</p>
+				</div>
 				<div class="frame-parent">
 					<div class="hero-image">
 						<a href="https://tronixnetwork.com/">
@@ -289,7 +319,10 @@
 					</div>
 					<div class="frame-group">
 						<div class="the-gworls-club-parent">
-							<div class="the-gworls-club"><strong style="color: #8e27d8;">All New</strong> The Gworls Club</div>
+							<div class="the-gworls-club">
+								<strong style="color: #8e27d8">All New</strong> The
+								Gworls Club
+							</div>
 							<div class="sidney-starr-and">
 								The Gworls Club" isn't about senseless drama or being
 								just baddies. It's a compelling battle for
@@ -325,7 +358,7 @@
 								+ My List
 							</a>
 						</div>
-						
+
 						<!-- CTA 2 -->
 						<a
 							href="https://tronixnetwork.com/watch-promo/going-on-a-safaree/2"
@@ -340,7 +373,7 @@
 						>
 							Play Trailer
 						</a>
-					<!-- CTA 1 -->
+						<!-- CTA 1 -->
 						<a
 							href="https://tronixnetwork.com/watch-promo/the-gworls-club-super-trailer/2"
 							alt=" TGC"
@@ -354,6 +387,54 @@
 						>
 							Stream Now
 						</a>
+					</div>
+				</div>
+				<div style="text-align: left; display: flex">
+					<a href="https://tronixnetwork.com/"
+						><img
+							style="width: 60px"
+							src="https://email-template-image-hosting.vercel.app/images/newsletter/CLOGO.png"
+							alt=""
+						/>
+					</a>
+
+					<div style="text-align: left">
+						<p class="footer-text">Questions? Call 1(818)818-8181</p>
+						<ul style="padding-left: 0px; font-size: 14px">
+							<li>
+								<a
+									class="footer-text"
+									href="https://tronixnetwork.com/about-us"
+									>About Us</a
+								>
+							</li>
+							<li>
+								<a
+									class="footer-text"
+									href="https://tronixnetwork.com/contactus"
+									>Contact Us</a
+								>
+							</li>
+							<li>
+								<a
+									class="footer-text"
+									href="https://tronixnetwork.com/terms-and-conditions/web"
+									>Terms and Conditions</a
+								>
+							</li>
+							<li>
+								<a
+									class="footer-text"
+									href="https://tronixnetwork.com/privacy-policy/web"
+									>Privacy Policy</a
+								>
+							</li>
+						</ul>
+						<p class="footer-text">
+							This messages was mailed to [email] by Tronix as part
+							of your Tronix subscription
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
