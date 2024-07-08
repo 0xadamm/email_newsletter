@@ -98,18 +98,19 @@
 				flex: 1;
 				border-radius: 10px;
 				background-color: #9d9d9d;
-				height: 106px;
+				height: 110px;
 				overflow: hidden;
 				background-size: cover;
 			}
 			.frame-container {
 				align-self: stretch;
-				overflow: hidden;
+				/* overflow: hidden; */
 				display: flex;
 				flex-direction: row;
 				align-items: center;
 				justify-content: center;
 				gap: 10px;
+				
 			}
 			.play-now-wrapper {
 				font-weight: bold;
@@ -161,8 +162,15 @@
 				height: 200px;
 				flex-shrink: 0;
 				background-size: cover;
+			}
+
+			#cta-1 {
 				background-image: url("https://email-template-image-hosting.vercel.app/images/newsletter/tgc_thumbnail.png");
 			}
+			#cta-2 {
+				background-image: url("https://email-template-image-hosting.vercel.app/images/newsletter/safaree_thumbnail.png");
+			}
+
 			.play-trailer-wrapper {
 				color: #fff;
 				font-weight: bold;
@@ -219,7 +227,7 @@
 				justify-content: flex-start;
 			}
 			.desktop-1-inner {
-				align-self: stretch;
+				/* align-self: stretch; */
 				width: 500px;
 				background-color: #fff;
 				overflow: hidden;
@@ -273,16 +281,10 @@
 						<div class="the-gworls-club-parent">
 							<div class="the-gworls-club">The Gworls Club</div>
 							<div class="sidney-starr-and">
-								Sidney Starr and Ray J presents ‘The Gworls Club’ a
-								groundbreaking docuseries Tronix Original. Watch as
-								the Transgender Diva brings together 12 transgender
-								women from diverse backgrounds to live under one roof
-								at the Tronix house. In this empowering and
-								unfiltered journey, the women share their life
-								experiences, struggles, and triumphs. United by their
-								common goal to "get the bag," they navigate the ups
-								and downs of their unique journeys, building bonds
-								and breaking barriers.
+								The Gworls Club" isn't about senseless drama or being
+								just baddies. It's a compelling battle for
+								recognition among 13 trans women, aiming to determine
+								who embodies the ultimate "feminine" persona.
 							</div>
 						</div>
 						<div class="frame-container">
@@ -315,18 +317,31 @@
 						</div>
 						<a
 							href="https://tronixnetwork.com/watch-promo/the-gworls-club-super-trailer/2"
-							alt=" Going on a Safaree"
+							alt=" TGC"
 							class="frame-inner"
+							id="cta-1"
 						>
 						</a>
-
 						<a
 							href="https://tronixnetwork.com/watch-promo/the-gworls-club-super-trailer/2"
 							class="play-trailer-wrapper"
 						>
 							Play Trailer
 						</a>
-					</div>
+						<a
+							href="https://tronixnetwork.com/watch-promo/going-on-a-safaree/2"
+							alt=" Going on a Safaree"
+							class="frame-inner"
+							id="cta-2"
+						>
+						</a>
+						<a
+							href="https://tronixnetwork.com/watch-promo/going-on-a-safaree/2"
+							class="play-trailer-wrapper"
+						>
+							Play Trailer
+						</a>
+					
 				</div>
 			</div>
 		</div>
