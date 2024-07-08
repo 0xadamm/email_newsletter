@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="initial-scale=1, width=device-width"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="./index.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+		/>
+	</head>
+	<body>
+		<style>
+			.clogo-1-icon {
+				position: absolute;
+				top: 7px;
+				left: 8px;
+				width: 60px;
+				height: 59px;
+				object-fit: cover;
+			}
+			.blur {
+				position: absolute;
+				top: 241px;
+				left: 0px;
+				filter: blur(4px);
+				background-color: #000;
+				width: 460px;
+				height: 20px;
+			}
+			.streaming-now {
+				position: relative;
+			}
+			.streaming-now-wrapper {
+				position: absolute;
+				top: 209.5px;
+				left: 133px;
+				border-radius: 10px 10px 0px 0px;
+				background-color: #e32fd7;
+				overflow: hidden;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+				padding: 5px 10px;
+			}
+			.hero-image {
+				align-self: stretch;
+				position: relative;
+				height: 255px;
+				overflow: hidden;
+				flex-shrink: 0;
+				background-image: url("Frame 3.png");
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: top;
+			}
+			.the-gworls-club {
+				align-self: stretch;
+				position: relative;
+			}
+			.sidney-starr-and {
+				align-self: stretch;
+				position: relative;
+				font-size: 14px;
+			}
+			.the-gworls-club-parent {
+				align-self: stretch;
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+				justify-content: flex-start;
+				gap: 5px;
+				text-align: left;
+			}
+			.frame-child {
+				flex: 1;
+				border-radius: 10px;
+				background-color: #9d9d9d;
+				height: 106px;
+				overflow: hidden;
+			}
+			.frame-container {
+				align-self: stretch;
+				overflow: hidden;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+				gap: 10px;
+			}
+			.play-now-wrapper {
+				align-self: stretch;
+				flex: 1;
+				border-radius: 10px;
+				background-color: #e32fd7;
+				overflow: hidden;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+				padding: 10px;
+			}
+			.my-list-wrapper {
+				align-self: stretch;
+				flex: 1;
+				border-radius: 10px;
+				background-color: #9d9d9d;
+				overflow: hidden;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+				padding: 10px;
+			}
+			.frame-div {
+				align-self: stretch;
+				height: 40px;
+				overflow: hidden;
+				flex-shrink: 0;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+				gap: 10px;
+				font-size: 14px;
+			}
+			.frame-inner {
+				align-self: stretch;
+				border-radius: 10px;
+				max-width: 100%;
+				overflow: hidden;
+				height: 200px;
+				flex-shrink: 0;
+				object-fit: cover;
+			}
+			.play-trailer-wrapper {
+				align-self: stretch;
+				border-radius: 10px;
+				background-color: #e32fd7;
+				height: 40px;
+				overflow: hidden;
+				flex-shrink: 0;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+				font-size: 16px;
+			}
+			.frame-group {
+				width: 460px;
+				border-radius: 10px;
+				background-color: #000;
+				overflow: hidden;
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+				justify-content: flex-start;
+				padding: 20px;
+				box-sizing: border-box;
+				gap: 10px;
+			}
+			.frame-parent {
+				align-self: stretch;
+				border-radius: 10px;
+				background-color: #000;
+				overflow: hidden;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: flex-start;
+			}
+			.desktop-1-inner {
+				width: 500px;
+				background-color: #fff;
+				overflow: hidden;
+				flex-shrink: 0;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				padding: 20px;
+				box-sizing: border-box;
+			}
+			.desktop-1 {
+				width: 100%;
+				position: relative;
+				background-color: #c3c3c3;
+				height: 1080px;
+				overflow: hidden;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+				padding: 10px;
+				box-sizing: border-box;
+				text-align: center;
+				font-size: 24px;
+				color: #fff;
+				font-family: Inter;
+			}
+		</style>
+
+		<div class="desktop-1">
+			<div class="desktop-1-inner">
+				<div class="frame-parent">
+					<div
+						class="hero-image"
+						style="
+							background-image: url(https://email-template-image-hosting.vercel.app/images/newsletter/tgc_thumbnail.png);
+						"
+					>
+						<img
+							class="clogo-1-icon"
+							alt="Logo"
+							src="https://email-template-image-hosting.vercel.app/images/newsletter/CLOGO.png"
+						/>
+
+						<div class="blur"></div>
+						<div class="streaming-now-wrapper">
+							<div class="streaming-now">Streaming Now</div>
+						</div>
+					</div>
+					<div class="frame-group">
+						<div class="the-gworls-club-parent">
+							<div class="the-gworls-club">The Gworls Club</div>
+							<div class="sidney-starr-and">
+								Sidney Starr and Ray J presents ‘The Gworls Club’ a
+								groundbreaking docu- series Tronix Original. Watch as
+								the Transgender Diva brings together 12 transgender
+								women from diverse backgrounds to live under one roof
+								at the Tronix house. In this empowering and
+								unfiltered journey, the women share their life
+								experiences, struggles, and triumphs. United by their
+								common goal to "get the bag," they navigate the ups
+								and downs of their unique journeys, building bonds
+								and breaking barriers.
+							</div>
+						</div>
+						<div class="frame-container">
+							<div class="frame-child"></div>
+							<div class="frame-child"></div>
+						</div>
+						<div class="frame-div">
+							<div class="play-now-wrapper">
+								<div class="streaming-now">Play Now</div>
+							</div>
+							<div class="my-list-wrapper">
+								<div class="streaming-now">+ My List</div>
+							</div>
+						</div>
+						<img
+							class="frame-inner"
+							alt=""
+							src="https://email-template-image-hosting.vercel.app/images/newsletter/safaree_thumbnail.png"
+						/>
+
+						<div class="play-trailer-wrapper">
+							<div class="streaming-now">Play Trailer</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
