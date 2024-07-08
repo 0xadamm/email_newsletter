@@ -37,6 +37,8 @@
 			}
 			.streaming-now {
 				position: relative;
+				color: #fff;
+				text-decoration: none;
 			}
 			.streaming-now-wrapper {
 				position: absolute;
@@ -108,6 +110,7 @@
 				gap: 10px;
 			}
 			.play-now-wrapper {
+				text-decoration: none;
 				align-self: stretch;
 				flex: 1;
 				border-radius: 10px;
@@ -120,6 +123,7 @@
 				padding: 10px;
 			}
 			.my-list-wrapper {
+				text-decoration: none;
 				align-self: stretch;
 				flex: 1;
 				border-radius: 10px;
@@ -150,9 +154,11 @@
 				overflow: hidden;
 				height: 200px;
 				flex-shrink: 0;
-				object-fit: cover;
+				background-size: cover;
+				background-image: url("https://email-template-image-hosting.vercel.app/images/newsletter/safaree_thumbnail.png");
 			}
 			.play-trailer-wrapper {
+				text-decoration: none;
 				align-self: stretch;
 				border-radius: 10px;
 				/* background-color: #8e27d8; */
@@ -225,11 +231,13 @@
 			<div class="desktop-1-inner">
 				<div class="frame-parent">
 					<div class="hero-image">
-						<img
-							class="clogo-1-icon"
-							alt="Logo"
-							src="https://email-template-image-hosting.vercel.app/images/newsletter/CLOGO.png"
-						/>
+						<a href="https://tronixnetwork.com/">
+							<img
+								class="clogo-1-icon"
+								alt="Logo"
+								src="https://email-template-image-hosting.vercel.app/images/newsletter/CLOGO.png"
+							/>
+						</a>
 
 						<div class="blur"></div>
 						<div class="streaming-now-wrapper">
@@ -253,32 +261,46 @@
 							</div>
 						</div>
 						<div class="frame-container">
-							<div
+							<a
+								alt="The Cookoff w/ Princess Love"
+								href="https://tronixnetwork.com/video-detail/the-cookoff-w-princess-love"
 								class="frame-child"
 								id="ad-1"
-							></div>
-							<div
+							></a>
+							<a
+								alt="House of Blue Face"
+								href="https://tronixnetwork.com/video-detail/house-of-blue-face"
 								class="frame-child"
 								id="ad-2"
-							></div>
+							></a>
 						</div>
 						<div class="frame-div">
-							<div class="play-now-wrapper">
+							<a
+								href=""
+								class="play-now-wrapper"
+							>
 								<div class="streaming-now">Play Now</div>
-							</div>
-							<div class="my-list-wrapper">
+							</a>
+							<a
+								href=""
+								class="my-list-wrapper"
+							>
 								<div class="streaming-now">+ My List</div>
-							</div>
+							</a>
 						</div>
-						<img
+						<a
+							href="https://tronixnetwork.com/video-detail/going-on-a-safaree"
+							alt=" Going on a Safaree"
 							class="frame-inner"
-							alt=""
-							src="https://email-template-image-hosting.vercel.app/images/newsletter/safaree_thumbnail.png"
-						/>
+						>
+						</a>
 
-						<div class="play-trailer-wrapper">
+						<a
+							href="https://tronixnetwork.com/video-detail/going-on-a-safaree"
+							class="play-trailer-wrapper"
+						>
 							<div class="streaming-now">Play Trailer</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
