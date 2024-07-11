@@ -74,6 +74,12 @@
 #ad-2 {
 	background-image: url("https://email-template-image-hosting.vercel.app/images/newsletter/hob_face_thumbnail.png");
 }
+#ad-3 {
+	background-image: url("https://email-template-image-hosting.vercel.app/images/newsletter/safaree_thumbnail.png");
+}
+#ad-4 {
+	background-image: url("https://email-template-image-hosting.vercel.app/images/newsletter/tgc_thumbnail.png");
+}
 
 .frame-child {
 	flex: 1;
@@ -154,6 +160,12 @@
 }
 #cta-2 {
 	background-image: url("https://email-template-image-hosting.vercel.app/images/newsletter/safaree_thumbnail.png");
+}
+#cta-3 {
+	background-image: url("https://email-template-image-hosting.vercel.app/images/newsletter/cookoff_coverart_h.jpg");
+}
+#cta-4 {
+	background-image: url("https://email-template-image-hosting.vercel.app/images/newsletter/hob_face_thumbnail.png");
 }
 
 .play-trailer-wrapper {
